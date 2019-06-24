@@ -1,5 +1,7 @@
 # Interop Future
 
+[![CircleCI][ci-badge]][ci-url]
+
 This library provides an interoperability layer with Scala's Future.
 
 ## From `Future`
@@ -49,3 +51,6 @@ def toFutureE(f: E => Throwable): UIO[Future[A]]
 val safeFuture: UIO[Future[MoarData]] = myShinyNewApiBasedOnZio(...).toFuture(MyError.toThrowable)
 val itsHappening: Future[MoarData] = unsafeRun(safeFuture)
 ```
+
+[ci-badge]: https://circleci.com/gh/zio/interop-future/tree/master.svg?style=svg
+[ci-url]: https://circleci.com/gh/zio/interop-future/tree/master
