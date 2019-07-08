@@ -32,5 +32,5 @@ lazy val future = project
   .settings(stdSettings("zio-interop-future"))
   .settings(buildInfoSettings)
   .settings(
-    libraryDependencies += "dev.zio" %% "zio" % "1.0.0-RC9"
+    libraryDependencies += "dev.zio" %% "zio" % "1.0.0-RC9-4"
   )
