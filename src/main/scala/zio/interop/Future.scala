@@ -37,7 +37,7 @@ package object interop {
       Fiber.fail(exception)
 
     final def successful[T](result: T): Future[T] =
-      Fiber.succeedLazy(result)
+      Fiber.succeed(result)
 
     final def fromTry[T](result: Try[T]): Future[T] =
       result match {
