@@ -5,4 +5,4 @@ addSbtPlugin("com.thoughtworks.sbt-api-mappings" % "sbt-api-mappings"          %
 addSbtPlugin("ch.epfl.scala"                     % "sbt-release-early"         % "2.1.1")
 addSbtPlugin("com.github.cb372"                  % "sbt-explicit-dependencies" % "0.2.11")
 addSbtPlugin("de.heikoseeberger"                 % "sbt-header"                % "5.2.0")
-addSbtPlugin("ch.epfl.scala"                     % "sbt-bloop"                 % "1.3.2")
+addSbtPlugin("ch.epfl.scala"                     % "sbt-bloop"                 % "1.3.3")
